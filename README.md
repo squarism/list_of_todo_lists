@@ -22,4 +22,40 @@ Some languages (like Elm for me) are going to be a "first synthesis app" for me.
 So part of this repo is to track and log how slow I am in the languages where I'm growing.
 
 
-## Done
+## This is not
+
+This doesn't demonstrate design or architecture.  This is a well-known problem
+that doesn't need to be broken down too much or thought about from different angles.
+This is purely syntax and implementation (hopefully).
+
+
+## Completed Projects
+
+### Ruby
+
+| Time to Complete | Feeling | 
+| ---------------- | ------- |
+| 3 hours (minus TUI) | Familiar, coded off the top of my head |
+
+| Library | Use |
+| ------- | --- |
+| Rspec   | Testing |
+
+Liked:
+* TDD flow, rspec syntax
+
+Researched:
+* `Array.reject` chaining with `each_with_index`
+
+Got stuck on:
+* Nothing
+
+New to me:
+* Never done an ncurses TUI before in Ruby
+
+Disliked:
+* Interactivity means I need a TUI.  A library demos very poorly.  How would I take a screenshot of a library?  Jealous of frontend projects.
+
+Wish I had done:
+* Wish I had a dummy data generator like factory girl in there.
+Not worth it for this kind of project but would have been nicer I guess?
