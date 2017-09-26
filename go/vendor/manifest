@@ -1,0 +1,169 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/golang/protobuf/proto",
+			"repository": "https://github.com/golang/protobuf",
+			"revision": "130e6b02ab059e7b717a096f397c5b60111cae74",
+			"branch": "master",
+			"path": "/proto"
+		},
+		{
+			"importpath": "github.com/mattn/go-runewidth",
+			"repository": "https://github.com/mattn/go-runewidth",
+			"revision": "97311d9f7767e3d6f422ea06661bc2c7a19e8a5d",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/olekukonko/tablewriter",
+			"repository": "https://github.com/olekukonko/tablewriter",
+			"revision": "a7a4c189eb47ed33ce7b35f2880070a0c82a67d4",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/config",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/config"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/ginkgo",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/ginkgo"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/internal/codelocation",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/internal/codelocation"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/internal/containernode",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/internal/containernode"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/internal/failer",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/internal/failer"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/internal/leafnodes",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/internal/leafnodes"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/internal/remote",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/internal/remote"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/internal/spec",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/internal/spec"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/internal/spec_iterator",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/internal/spec_iterator"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/reporters",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/reporters"
+		},
+		{
+			"importpath": "github.com/onsi/ginkgo/types",
+			"repository": "https://github.com/onsi/ginkgo",
+			"revision": "11459a886d9cd66b319dac7ef1e917ee221372c9",
+			"branch": "master",
+			"path": "/types"
+		},
+		{
+			"importpath": "github.com/onsi/gomega",
+			"repository": "https://github.com/onsi/gomega",
+			"revision": "dcabb60a477c2b6f456df65037cb6708210fbb02",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/net/html",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "0744d001aa8470aaa53df28d32e5ceeb8af9bd70",
+			"branch": "master",
+			"path": "/html"
+		},
+		{
+			"importpath": "golang.org/x/net/html/charset",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "0744d001aa8470aaa53df28d32e5ceeb8af9bd70",
+			"branch": "master",
+			"path": "/html/charset"
+		},
+		{
+			"importpath": "golang.org/x/text/encoding",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "1cbadb444a806fd9430d14ad08967ed91da4fa0a",
+			"branch": "master",
+			"path": "/encoding"
+		},
+		{
+			"importpath": "golang.org/x/text/internal/tag",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "1cbadb444a806fd9430d14ad08967ed91da4fa0a",
+			"branch": "master",
+			"path": "/internal/tag"
+		},
+		{
+			"importpath": "golang.org/x/text/internal/utf8internal",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "1cbadb444a806fd9430d14ad08967ed91da4fa0a",
+			"branch": "master",
+			"path": "/internal/utf8internal"
+		},
+		{
+			"importpath": "golang.org/x/text/language",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "1cbadb444a806fd9430d14ad08967ed91da4fa0a",
+			"branch": "master",
+			"path": "/language"
+		},
+		{
+			"importpath": "golang.org/x/text/runes",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "1cbadb444a806fd9430d14ad08967ed91da4fa0a",
+			"branch": "master",
+			"path": "/runes"
+		},
+		{
+			"importpath": "golang.org/x/text/transform",
+			"repository": "https://go.googlesource.com/text",
+			"revision": "1cbadb444a806fd9430d14ad08967ed91da4fa0a",
+			"branch": "master",
+			"path": "/transform"
+		},
+		{
+			"importpath": "gopkg.in/yaml.v2",
+			"repository": "https://gopkg.in/yaml.v2",
+			"revision": "eb3733d160e74a9c7e442f435eb3bea458e1d19f",
+			"branch": "v2"
+		}
+	]
+}
