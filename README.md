@@ -77,8 +77,10 @@ Liked:
 * Gomega's matchers
 
 Researched:
-* Deleting a slice element
-* Makefile stuff like exit codes `$$?` instead of `$?`
+* Deleting a slice element by index.
+* Makefile stuff like exit codes `$$?` instead of `$?`.
+* Golang's text/template pkg.
+* How to collect or map over a slice.  Pretty easy, just not a one-liner.
 
 Got stuck on:
 * Nothing
