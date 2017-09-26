@@ -13,7 +13,7 @@ So how do I even talk about language skills?
 I don't have an answer, no one has an answer so I can just find out myself.
 
 Maybe I'm not correct in my base assumption but a good starting point would be
-"I can make a TODO list".  I've touched Node.js many times but I was doing Ruby
+"I can make a TODO list".  For example, I've touched Node.js many times but I was doing Ruby
 during the "hype transition" and I never transitioned to it being my primary language.
 So ... do I say "I know Node"?  What does that even mean?  So I'm tired of speaking
 like this so I'm just going to create TODO lists in every language I can.
@@ -73,7 +73,7 @@ Not worth it for this kind of project but would have been nicer I guess?
 | gb (not a lib) | Dependencies and vendoring |
 
 Liked:
-* Ginkgo setup
+* Ginkgo watching, test-first flow
 * Gomega's matchers
 
 Researched:
@@ -88,7 +88,9 @@ New to me:
 * The tablewriter pkg
 
 Disliked:
-* Fake interactivity, but I'm not going to do a TUI (too much like making a web browser)
+* Fake interactivity, but I'm not going to do a TUI (too much like making a web browser).
+* I tried writing my own text renderer but I didn't like it, so I just used a pkg.
+* My Todo struct stayed unexported (lowercase) until I did the `main.go`.  Ah well.
 
 Wish I had done:
 * Looked at ncurses libs?
