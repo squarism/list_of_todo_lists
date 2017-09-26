@@ -59,3 +59,49 @@ Disliked:
 Wish I had done:
 * Wish I had a dummy data generator like factory girl in there.
 Not worth it for this kind of project but would have been nicer I guess?
+
+### Go
+
+| Time to Complete | Feeling | 
+| ---------------- | ------- |
+| 5.5 hours | Mostly quick |
+
+| Library | Use |
+| ------- | --- |
+| Ginkgo | Testing |
+| Tablewriter | Pretty printing a text table |
+| gb (not a lib) | Dependencies and vendoring |
+
+Liked:
+* Ginkgo setup
+* Gomega's matchers
+
+Researched:
+* Deleting a slice element
+* Makefile stuff like exit codes `$$?` instead of `$?`
+
+Got stuck on:
+* Nothing
+
+New to me:
+* Never did Ginkgo this much
+* The tablewriter pkg
+
+Disliked:
+* Fake interactivity, but I'm not going to do a TUI (too much like making a web browser)
+
+Wish I had done:
+* Looked at ncurses libs?
+
+Output:
+```
+$ cd go
+$ make build  # assume gb already installed
+$ ./bin/todo
+         TODO        | COMPLETED
++--------------------+-----------+
+  Do a little dance  | [ ]
+  Make a little love | [ ]
+  Get down tonight   | [x]
+```
+You'll need to install gb before the above will work.
