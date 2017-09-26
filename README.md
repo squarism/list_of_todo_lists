@@ -12,11 +12,10 @@ So how do I even talk about language skills?
 
 I don't have an answer, no one has an answer so I can just find out myself.
 
-Maybe I'm not correct in my base assumption but a good starting point would be
-"I can make a TODO list".  For example, I've touched Node.js many times but I was doing Ruby
-during the "hype transition" and I never transitioned to it being my primary language.
-So ... do I say "I know Node"?  What does that even mean?  So I'm tired of speaking
-like this so I'm just going to create TODO lists in every language I can.
+Maybe I'm not correct in my base assumption but a good starting point would be "I can make a TODO list".  For
+example, I've touched Node.js many times but it's not my goto dynamic language.  So ... do I say "I know
+Node"?  What does that even mean?  So I'm tired of speaking like this so I'm just going to create TODO lists
+in every language I can.
 
 Some languages (like Elm for me) are going to be a "first synthesis app" for me.
 So part of this repo is to track and log how slow I am in the languages where I'm growing.
@@ -30,6 +29,16 @@ This is purely syntax and implementation (hopefully).
 
 
 ## Completed Projects
+
+Comparing times by themselves is unfair and not the point.
+The _"backend"_ languages don't even really have a UI and
+that's skipping a lot of complexity but building a UI
+without a browser is taking on too much complexity.
+
+* Ruby (cli)
+* Go (cli)
+* Node (cli)
+
 
 ### Ruby
 
@@ -59,6 +68,7 @@ Disliked:
 Wish I had done:
 * Wish I had a dummy data generator like factory girl in there.
 Not worth it for this kind of project but would have been nicer I guess?
+
 
 ### Go
 
@@ -109,3 +119,47 @@ $ ./bin/todo
   Get down tonight   | [x]
 ```
 You'll need to install gb before the above will work.
+
+
+### Node
+
+| Time to Complete | Feeling | Liked | Disliked | Researched | Got Stuck On |
+|---|---|---|---|---|---|
+| 6 hours | Familiar | Dynamic | npm warnings | Webpack config (but why am I webpacking!?) | |
+| | Lots of `function() {` | Test watcher | | Mocha (hadn't used in a while) | |
+| | | Test speed! | | Everything lodash | |
+| | | Yarn | | Expect.js matchers | |
+| | | | | Can I bundle this as a binary? | |
+| | | | | Node require layout and exporting classes from modules | |
+
+
+New to me:
+* Mocha and expect.js matchers, mocha watching
+* A CLI ES6 project
+
+#### Output
+
+Ooo a 34MB binary with `pkg`.  You need to install [pkg]() first.
+
+```
+$ npm run build
+$ ./bin/index-macos
+┌───────────────────────────────┬─────┐
+│ Walk the dog                  │ [ ] │
+├───────────────────────────────┼─────┤
+│ Pet the dog                   │ [ ] │
+├───────────────────────────────┼─────┤
+│ Forget it, I don't have a dog │ [x] │
+└───────────────────────────────┴─────┘
+```
+
+Or just run `index.js` with node.
+```
+$ cd node
+$ node ./src/index.js
+```
+
+#### Notes
+Running: `npm run test`
+Dev loop: `npm run dev` (mocha watch)
+

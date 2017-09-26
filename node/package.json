@@ -1,0 +1,21 @@
+{
+  "name": "TodoList",
+  "version": "0.1.0",
+  "description": "A very basic todo list in node.js",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "table": "^4.0.2",
+    "webpack": "^3.6.0"
+  },
+  "scripts": {
+    "dev": "yarn run mocha --watch --bail --reporter=min",
+    "test": "yarn run mocha",
+    "build": "pkg src/index.js --out-path=bin"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.5.3"
+  }
+}
